@@ -68,7 +68,7 @@ async function joinRtm() {
               const room = $(`
                 <div id="player-wrapper-${memberId}" >
                   <button id="" type="submit" class="btn btn-primary btn-sm" onclick="join('${information.channelName}','','host')">Join Speaker(Host:${memberId})</button>
-                  <button id="" type="submit" class="btn btn-primary btn-sm" onclick="join('${information.channelName}','','')">Join Audience(Host:${memberId})</button>
+                  <button id="" type="submit" class="btn btn-primary btn-sm" onclick="join('${information.channelName}','','audience')">Join Audience(Host:${memberId})</button>
                   <button id="" type="submit" class="btn btn-primary btn-sm" onclick="leave()">Leave</button>
                 </div>
                 <br />
